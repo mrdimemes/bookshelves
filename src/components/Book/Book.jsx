@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { setActiveBook } from '../../redux/reducers/bookcase';
 
 
-const Book = (autor, title, id, makeActive) => {
+const Book = ({ autor, title, id, makeActive }) => {
   return (
     <li className='book' onClick={makeActive(id)}>
       <p className='book__autor'>{autor}</p>
