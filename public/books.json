@@ -1,49 +1,49 @@
 {
   "books": [
     {
-      "id": 0,
+      "id": "0",
       "autor": "Autor",
       "title": "Title",
       "pages": 256,
       "year": 1990
     },
     {
-      "id": 1,
+      "id": "1",
       "autor": "Autor",
       "title": "Another title",
       "pages": 195,
       "year": 1992
     },
     {
-      "id": 2,
+      "id": "2",
       "autor": "Another Autor",
       "title": "The Title",
       "pages": 202,
       "year": 2012
     },
     {
-      "id": 3,
+      "id": "3",
       "autor": "New Autor",
       "title": "Book",
       "pages": 145,
       "year": 2018
     },
     {
-      "id": 4,
+      "id": "4",
       "autor": "Old Autor",
       "title": "Fish",
       "pages": 140,
       "year": 1923
     },
     {
-      "id": 5,
+      "id": "5",
       "autor": "Old Autor",
       "title": "Meat",
       "pages": 300,
       "year": 1920
     },
     {
-      "id": 6,
+      "id": "6",
       "autor": "Some Autor",
       "title": "Book Title",
       "pages": 444,
