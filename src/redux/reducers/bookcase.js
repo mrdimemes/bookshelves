@@ -35,14 +35,14 @@ const bookcaseSlice = createSlice({
 
     removeBook(state, action) {
       const bookIndex = getBookIndex(state.books, action.payload);
-      if (bookIndex != -1) {
+      if (bookIndex !== -1) {
         state.books.splice(bookIndex, 1);
       }
     },
 
     editBook(state, action) {
       const bookIndex = getBookIndex(state.books, action.payload.id);
-      if (bookIndex != -1) {
+      if (bookIndex !== -1) {
         state.books[bookIndex] = action.payload;
       }
     },
@@ -78,6 +78,6 @@ export const {
   setActiveBook,
   setShelvesNumber,
   setMinBooksOnShelve
-} = cartSlice.actions;
+} = bookcaseSlice.actions;
 
 export default bookcaseSlice.reducer;
