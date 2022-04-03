@@ -8,12 +8,7 @@ const Bookshelf = ({ books }) => {
     <ul className='bookshelf'>
       {
         books.map((book) => {
-          return <Book
-            key={book.id}
-            id={book.id}
-            autor={book.autor}
-            title={book.title}
-          />
+          return <Book key={book.id} book={book} />
         })
       }
     </ul>
