@@ -3,9 +3,7 @@ import bookcaseReducer from './reducers/bookcase';
 
 
 const store = configureStore({
-  reducer: {
-    bookcase: bookcaseReducer
-  }
+  reducer: bookcaseReducer
 })
 
 export default store;
